@@ -1,0 +1,105 @@
+/* html {cursor: url(../data/rockcursor.cur), progress !important;} */
+/* html, a:hover {cursor: url(../data/rockcursor.cur), progress !important;} */
+/*http://www.cursors-4u.com/*/
+
+/*
+#fff6a1
+#104868
+#b2baf6
+#ffc9e6
+#ffafd9
+#cc639a
+#8c141a
+#bd1717
+*/
+
+html {
+  cursor: url(../data/rockcursor.cur), progress !important;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+   font-size: 20px;
+   /* background-color: rgba(178, 186, 246, 0.2); */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  z-index: 1;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+  transition: width 0.8s;
+}
+
+a {
+  display: block;
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  /* border: solid 2px green; */
+}
+
+ a:hover {
+  cursor: url(../data/rockcursor.cur), progress !important;
+  font-weight: bold;
+  color: #ffc9e6;
+  text-shadow: 0 0 0.7em #bd1717, 0 0 0.7em #bd1717, 0 0 0.7em #bd1717;
+}
+
+
+.navSection {
+  position: fixed;
+  top: 32%;
+   left: 0;
+  float: center;
+  width: 100%;
+  /* border: solid 2px blue; */
+}
+
+li {
+  /* border: solid 2px red; */
+  display:inline-block;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  /* border: solid 2px purple; */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AboutContact {
+  margin-bottom: 10px;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+div.stamps {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+}
+
+div.stamps img {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: spin 30s infinite linear;
+}

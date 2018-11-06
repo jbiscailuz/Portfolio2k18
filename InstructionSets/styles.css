@@ -1,74 +1,38 @@
-
-
-@keyframes spin {
-  0% {
-		transform: translate(-50%, -50%) rotate(0);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-
-html {
-  cursor: url(../data/rockcursor.cur), progress !important;
-}
-
-body {
-	/* font-family: silkaregular; */
-  font-family: 'Roboto Mono', monospace;
-	font-size: 32px;
-	line-height: 1.25;
-	background-color: white;
-	color: black;
-	margin: 240px auto 200px auto;
-	max-width: 1120px;
-	transition: background-color 0.5s;
-  /* border: 2px solid blue; */
-  margin-bottom: 0;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 32px;
-  text-align: center;
-  z-index: 1;
-}
-
-header img {
-  width: 136px;
-  transition: width 0.8s;
-}
-
-header.slide img {
-  width: 64px;
-}
-
-header.slide h1{
-  opacity: 0;
-}
-
-h1 {
-  color: purple;
-  font-size: 30px;
-  margin: auto;
-  text-align: center;
-}
-
-section {
-  margin: 80px 40px 80px 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 40px;
-  /* border: 2px solid red; */
-}
+/*
+#fff6a1
+#104868
+#b2baf6
+rgba(178, 186, 246, 1)
+#ffc9e6
+#ffafd9
+#cc639a
+#8c141a
+rgba(140, 20, 26,1)
+*/
 
 section.reverse {
   flex-direction: row-reverse;
+}
+
+section.mid {
+  /* border: solid 2px green; */
+flex-direction: column;
+}
+
+.mid video{
+  /* border: solid 2px red; */
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.mid h3 {
+  margin-bottom: 30px;
+}
+
+.mid p {
+  max-width: 885px;
+  /* border: solid 2px blue; */
 }
 
 section img {
@@ -78,43 +42,8 @@ section img {
   max-width: none;
 }
 
-
-.SectionDiv {
-  padding: 40px;
-  position: relative;
-}
-
 section p {
-  font-size: 20px;
-	color: purple;
   margin: 1em 0 0 0;
-}
-
-a {
-  display: block;
-  color: #000;
-  padding: 6px 2px;
-  text-decoration: none;
-}
-
- a:hover {
-  cursor: url(../data/rockcursor.cur), progress !important;
-  font-weight: bold;
-  color: rgb(220,20,60);
-  text-shadow: 0 0 0.7em rgb(255,182,193), 0 0 0.7em rgb(220,20,60), 0 0 0.7em rgb(255,182,193);
-}
-
-.vid {
-  /* border: solid 2px red; */
-  height: 630px;
-  width: 480.7px;
-  text-align: center;
-}
-
-video {
-    margin-top:40%;
-    margin-bottom: 40%;
-    /* border: 5px solid #009; */
 }
 
 /* Slides */
@@ -146,8 +75,4 @@ div.SlidesAction img {
 
 div.SlidesAction img:first-child {
   z-index: 1;
-}
-
-div.SlidesAction:hover img {
-  box-shadow: 0 0 50px rgba(220,20,60, 0.3);
 }

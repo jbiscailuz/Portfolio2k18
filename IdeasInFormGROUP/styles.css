@@ -1,0 +1,114 @@
+section p {
+  font-size: 20px;
+  margin: 1em 0 0 0;
+}
+
+section li {
+  font-size: 20px;
+  margin: 1em 0 0 0;
+}
+
+a {
+  font-size: 20px;
+  display: block;
+  padding: 6px 2px;
+  text-decoration: none;
+}
+
+.AllContent {
+  padding: none;
+  -ms-box-orient: horizontal;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -moz-flex;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-wrap: wrap;
+ flex-wrap: wrap;
+}
+
+.Column1 {
+  max-width:60.8%;
+}
+
+.Column2 {
+  max-width: 39.2%;
+}
+
+.ResearchStatement {
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px;
+  background-color: #b2baf6;
+}
+
+.ResearchLinks {
+  padding: 20px;
+  max-width: 600px;
+  margin: 30px;
+  background-color: #b2baf6;
+}
+
+.TopicScope {
+  padding: 20px;
+  max-width: 350px;
+  max-height: 350px;
+  margin: 30px;
+  background-color: #fff6a1;
+}
+
+.GooglePresentation {
+  padding: 20px;
+  max-width: 350px;
+  max-height: 100px;
+  margin: 30px;
+  background-color: #ffc9e6;
+}
+
+.Study2D {
+  padding: 20px;
+  max-width: 350px;
+  max-height: 100px;
+  margin: 30px;
+  background-color: #ffc9e6;
+}
+
+/* /////////////////// */
+/* ///// Slides ///// */
+/* ////////////////// */
+
+.SlidesDIV {
+  /* border: 2px solid pink; */
+  position: relative;
+  width: 350px;
+  height: 260px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #ffafd9;
+}
+
+.SlidesAction {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 212px;
+  width: 300px;
+  transform: translateY(0%);
+  display: flex;
+  align-items: center;
+}
+
+div.SlidesAction img {
+  position: absolute;
+  z-index: 0;
+  transition: transform 0.5s, box-shadow 0.5s;
+  pointer-events: none;
+  width: 100%;
+  max-height: auto;
+}
+
+div.SlidesAction img:first-child {
+  z-index: 1;
+}

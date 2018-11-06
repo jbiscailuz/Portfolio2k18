@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>¿algo para contar?</title>
+  </head>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  <style>
+   h1 {
+     font-family: 'Roboto Mono', monospace;
+   }
+  </style>
+
+<script type="text/javascript">
+
+// https://stackoverflow.com/questions/14004318/show-random-image-from-array-in-javascript
+
+var imagenes = new Array();
+
+imagenes.push("img_01.png");
+imagenes.push("img_02.png");
+imagenes.push("img_03.png");
+imagenes.push("img_04.png");
+imagenes.push("img_05.png");
+imagenes.push("img_06.png");
+imagenes.push("img_07.png");
+imagenes.push("img_08.png");
+imagenes.push("img_09.png");
+imagenes.push("img_10.png");
+imagenes.push("img_11.png");
+imagenes.push("img_12.png");
+imagenes.push("img_13.png");
+imagenes.push("img_14.png");
+imagenes.push("img_15.png");
+imagenes.push("img_16.png");
+imagenes.push("img_17.png");
+imagenes.push("img_18.png");
+imagenes.push("img_19.png");
+imagenes.push("img_20.png");
+imagenes.push("img_21.png");
+imagenes.push("img_22.png");
+imagenes.push("img_23.png");
+imagenes.push("img_24.png");
+
+
+function getRandomNum(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function elegirimagenesNEXT() {
+  document.randimagen.src = imagenes[getRandomNum(0, imagenes.length - 1)];
+}
+
+</script>
+
+  <body>
+
+    <h1>¿algo para contar?</h1>
+
+    <div class="imagenes">
+  <a href="#" onClick="elegirimagenesNEXT(); return false;">
+    <img src="img_01.png" name="randimagen" border=0>
+  </a>
+</div>
+
+  </body>
+</html>

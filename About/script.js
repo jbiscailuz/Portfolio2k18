@@ -8,6 +8,4 @@ $(document).mousemove(function(e) {
         left: e.pageX + 30,
         top: e.pageY + 60
     });
-
-
 });

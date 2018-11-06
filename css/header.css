@@ -1,0 +1,42 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  z-index: 2;
+}
+
+header img {
+  /* width: 136px; */
+  width: 100px;
+
+  transition: width 0.8s;
+  margin-bottom: 5px;
+}
+
+header.slide img {
+  width: 64px;
+}
+
+header.slide h1{
+  opacity: 0;
+}
+
+header.slide h2 {
+  opacity: 0;
+}
+
+h1 {
+  color: #cc639a;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  /* color: rgb(154, 205, 50); */
+  color: #bd1717;
+  font-size: 20px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    < 333</title>
+
+</head>
+
+<body>
+
+  <button onclick="heart()"> I'm so glad for you </button>
+
+  <pre id="heartShape">
+            gggggggggggggg              gggggggggggggg
+         gggggggggggggggggggg         gggggggggggggggggg
+       gggggggggggggggggggggggg     gggggggggggggggggggggg
+     ggggggggggggggggggggggggggg   ggggggggggggggggggggggggg
+    ggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    gggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+     gggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+      gggggggggggggggggggggggggggggggggggggggggggggggggggggg
+       gggggggggggggggggggggggggggggggggggggggggggggggggggg
+         ggggggggggggggggggggggggggggggggggggggggggggggggg
+          gggggggggggggggggggggggggggggggggggggggggggggg
+            gggggggggggggggggggggggggggggggggggggggggg
+               ggggggggggggggggggggggggggggggggggggg
+                  gggggggggggggggggggggggggggggg
+                     gggggggggggggggggggggggg
+                        gggggggggggggggggg
+                           gggggggggggg
+                             gggggggg
+                               ggggg
+                                ggg
+                                 g
+    </pre>
+
+  <div id="writing">
+    <p>
+      <33 </p>
+  </div>
+
+  <script type="text/javascript">
+    //hide heart shape
+    var heartShapeShow = document.getElementById("heartShape");
+    heartShapeShow.style.visibility = "hidden";
+
+
+    function heart() {
+
+      //display heart shape
+
+      var a = document.getElementById("heartShape");
+      if (a.style.visibility == "hidden") {
+        a.style.visibility = "visible";
+      }
+
+      //text to heart shape
+
+      //  var textToShape = document.write("inputTextToShape").value;
+      // var textToShape = document.write("<3").value;
+      var textToShape = document.getElementById("writing").value;
+      i = -1;
+      var elem = document.getElementById("heartShape");
+      elem.innerText = elem.innerText.replace(/[^\n|\r|\t|\s+]/g, function() {
+        return textToShape[++i]
+      });
+    }
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+
+</html>

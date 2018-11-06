@@ -1,70 +1,30 @@
-/* color:#00E34D; */
-
-/* Header */
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 32px;
-  text-align: center;
-  z-index: 1;
-}
-
-header img {
-  width: 136px;
-  transition: width 0.8s;
-}
-
-header.slide img {
-  width: 64px;
-}
-
-header.slide h1{
-  opacity: 0;
-}
-
-/* Project */
-
-/* body {font-family: 'Inconsolata', monospace;
-} */
-
-html {
-  cursor: url(../../data/rockcursor.cur), progress !important;
-}
-
-body {
-  font-family: 'Roboto Mono', monospace;
-   /* font-family: 'silkaregular'; */
-   font-size: 20px;
+.iphone p {
+color: black;
+margin: 1em 0 1em 0;
+font: 400 15px 'Open Sans', sans-serif;
 }
 
 .all {
   /* border: solid 2px green; */
   position: relative;
-  top: 200px;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
 
-h1 {
-  color: purple;
-  font-size: 30px;
-  margin: auto;
-  text-align: center;
+.text {
+  font-size: 20px;
+  margin: 30px;
 }
 
-/* h1 {
-  font-size: 60px;
-  margin-bottom: -5px;
-  margin-top: -10px;
-} */
+.text #smallerP {
+  font-size: 15px;
+}
 
-p2 {
-  font-size: 10px;
-  line-height: normal;
+.iphone {
+  /* border: solid 2px red; */
+  /* height:100%; */
+  /* margin-bottom: 80px; */
 }
 
 form.chat *{

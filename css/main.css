@@ -1,0 +1,64 @@
+/*
+#fff6a1
+#104868
+#b2baf6
+#ffc9e6
+#ffafd9
+#cc639a
+#8c141a
+#bd1717
+*/
+
+html {
+  cursor: url(../data/rockcursor.cur), progress !important;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	line-height: 1.25;
+	background-color: rgba(178, 186, 246, 0);
+	color: black;
+	margin: 240px auto 200px auto;
+	max-width: 1120px;
+	transition: background-color 0.5s;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #cc639a;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  /* display: block; */
+  padding: 6px 2px;
+  text-decoration: none;
+  color: black;
+  /* font-size: 32px; */
+}
+
+a:hover {
+ cursor: url(../data/rockcursor.cur), progress !important;
+ font-weight: bold;
+ color: #ffc9e6;
+ text-shadow: 0 0 0.7em #bd1717, 0 0 0.7em #bd1717, 0 0 0.7em #bd1717;
+}
+
+section {
+  margin: 80px 40px 80px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.SectionDiv {
+  padding: 40px;
+  position: relative;
+}
