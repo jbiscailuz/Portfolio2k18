@@ -1,8 +1,3 @@
-.iphone p {
-color: black;
-margin: 1em 0 1em 0;
-font: 400 15px 'Open Sans', sans-serif;
-}
 
 .all {
   /* border: solid 2px green; */
@@ -19,6 +14,13 @@ font: 400 15px 'Open Sans', sans-serif;
 
 .text #smallerP {
   font-size: 15px;
+  margin-top: 10px;
+}
+
+.iphone p {
+color: black;
+margin: 1em 0 1em 0;
+font: 400 15px 'Open Sans', sans-serif;
 }
 
 .iphone {
