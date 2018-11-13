@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather</title>
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+  <div class="clickForm">
+    <div class="formElem"
+      <label for="Cityname">City</label>
+      <input type="text" id="Cname" name="firstname" placeholder="City">
+      <input type="submit" value="Submit" onclick = "bringAPI()">
+    </form>
+  </div>
+  </div>
+
+  <!-- main climates -->
+
+  <div class="mainClimates">
+
+<div class="rainz">
+  <div class="rainy">
+    <section class="rain"></section>
+		</div>
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Rain_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+  <div class="thundery">
+    <canvas id="canvas"></canvas>
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Thunderstorm_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+  <div class="cleary">
+    <!-- <div class="clearz">
+    </div> -->
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Clear_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+  <div class="cloudy">
+
+    <div class="x1">
+        <div class="cloud"></div>
+    </div>
+    <div class="x2">
+        <div class="cloud"></div>
+    </div>
+    <div class="x3">
+        <div class="cloud"></div>
+    </div>
+    <div class="x4">
+        <div class="cloud"></div>
+    </div>
+    <div class="x5">
+        <div class="cloud"></div>
+    </div>
+
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Clouds_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+
+
+  </div>
+
+  <div class="drizzley">
+    <div class="rainy">
+      <section class="rain"></section>
+  		</div>
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Drizzle_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+  <div class="snowy">
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Snow_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+  <div class="atmospherey">
+    <div id="Form1">
+      <label for="Feel">How are you feeling today?</label>
+      <input type="text" id="Fname" name="Atmosphere_feeling" placeholder="...">
+      <input type="submit" value="Submit" id="submit-form">
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="main.js"></script>
+<script src="forms.js"></script>
+<script src="rain.js"></script>
+<script src="thunder.js"></script>
+<script src="clear.js"></script>
+
+</html>
