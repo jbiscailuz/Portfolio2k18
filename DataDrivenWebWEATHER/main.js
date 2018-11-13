@@ -14,7 +14,7 @@ function bringAPI() {
 
   var city = document.getElementById("Cname").value;
 
-  var url1 = 'http://api.openweathermap.org/data/2.5/weather?q=';
+  var url1 = 'https://api.openweathermap.org/data/2.5/weather?q=';
   var url2 = '&APPID=fd9db60b3d7d7b1a973ba7c4dd82c355';
   var city = document.getElementById("Cname").value;
 
