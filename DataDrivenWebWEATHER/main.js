@@ -2,7 +2,7 @@ $(".rainz").hide();
 $(".thundery").hide();
 $(".cleary").hide();
 $(".cloudy").hide();
-$(".drizzley").hide();
+// $(".drizzley").hide();
 $(".snowy").hide();
 $(".atmospherey").hide();
 
@@ -73,7 +73,8 @@ function bringAPI() {
     var idxDrizzley = parseInt(drizzley.indexOf(cityWeather));
     if (idxDrizzley != -1) {
 			$(".clickForm").hide();
-			$(".drizzley").show();
+			// $(".drizzley").show();
+      $(".rainz").show();
       console.log("hey, drizzle is working.");
     };
 
